@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "lint": "eslint \"src/**/*.{js, jsx}\" --quiet",
-      "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
