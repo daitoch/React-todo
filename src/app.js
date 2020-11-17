@@ -5,14 +5,14 @@ import Form from "./components/form";
 import Todo from "./components/todo";
 
 const App = () => {
-  const [inputText, setInputText] = useState("");
+  const [todos, setTodos] = useState([]);
   return (
     <div className="App">
       <header>
         <h1>React Todo</h1>
       </header>
-      <Form setState={setInputText} />
-      <Todo text={inputText} />
+      <Form todos={todos} setTodos={setTodos} />
+      <Todo todos={todos} />
     </div>
   );
 };
