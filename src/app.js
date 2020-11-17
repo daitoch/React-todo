@@ -12,7 +12,7 @@ const App = () => {
         <h1>React Todo</h1>
       </header>
       <Form todos={todos} setTodos={setTodos} />
-      <Todo todos={todos} />
+      <Todo todos={todos} setTodos={setTodos} />
     </div>
   );
 };
