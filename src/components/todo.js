@@ -1,6 +1,6 @@
 import React from "react";
 
-const Todo = ({ todos, setTodos }) => {
+const Todo = ({ todos, setTodos, filters }) => {
   const deleteHandler = (id) => {
     setTodos(todos.filter((el) => el.id !== id));
   };
@@ -20,9 +20,12 @@ const Todo = ({ todos, setTodos }) => {
   return (
     <div className="todo-container">
       <ul className="todo-list">
-        {todos.map((todo) => (
+        {filters.map((todo) => (
           <div key={todo.id + Math.random() + 10} className="todo">
-            <li key={todo.id} className={`todo-item ${todo.complete ? "completed": ''}`}>
+            <li
+              key={todo.id}
+              className={`todo-item ${todo.complete ? "completed" : ""}`}
+            >
               {todo.text}
             </li>
             <button
