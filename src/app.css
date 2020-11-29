@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-image: linear-gradient(120deg, #7465f6 0%, #85cdfd 100%);
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
@@ -28,13 +28,13 @@ form button {
   background: white;
 }
 form button {
-  color: #ff6f47;
+  color: #7465f6;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 form button:hover {
-  background: #ff6f47;
+  background: #7465f6;
   color: white;
 }
 .todo-container {
@@ -52,7 +52,7 @@ form button:hover {
   margin: 0.5rem;
   background: white;
   font-size: 1.5rem;
-  color: black;
+  color: #7465f6;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,7 +67,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  background: #ff6f47;
+  background: #7465f6;
   color: white;
   border: none;
   padding: 1rem;
@@ -115,7 +115,7 @@ select {
   overflow: hidden;
 }
 select {
-  color: #ff6f47;
+  color: #7465f6;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   width: 12rem;
@@ -127,7 +127,7 @@ select {
   top: 0;
   right: 0;
   padding: 1rem;
-  background: #ff6f47;
+  background: #7465f6;
   cursor: pointer;
   pointer-events: none;
 }
